@@ -102,3 +102,24 @@
   border-radius: 8px;
   cursor: pointer;
 }
+
+/* not found page */
+.not-found h2 {
+  font-size: 20px;
+  color: #f1356d;
+  margin-bottom: 10px;
+}
+
+.not-found p {
+  font-size: 16px;
+  margin-bottom: 20px;
+}
+
+.not-found button {
+  background: #f1356d;
+  color: #fff;
+  border: 0;
+  padding: 8px;
+  border-radius: 8px;
+  cursor: pointer;
+}
