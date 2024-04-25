@@ -3,7 +3,7 @@ import { useNavigate } from "react-router-dom";
 const NotFound = () => {
     const navigate = useNavigate()
     const handleBack = () => {
-        navigate("/")
+        navigate("/blog-template")
     }
     return ( 
         <div className="not-found">

@@ -12,10 +12,10 @@ function App() {
         <Navbar />
         <div className="content">
           <Routes>
-            <Route path='/' element={<Home />}></Route>
-            <Route path='/create' element={<Create />}></Route>
-            <Route path='/blogs/:id' element={<BlogDetails />}></Route>
-            <Route path='*' element={<NotFound />}></Route>
+            <Route path='/blog-template' element={<Home />}></Route>
+            <Route path='/blog-template/create' element={<Create />}></Route>
+            <Route path='/blog-template/blogs/:id' element={<BlogDetails />}></Route>
+            <Route path='/blog-template/*' element={<NotFound />}></Route>
           </Routes>
         </div>
       </div>

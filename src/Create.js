@@ -24,7 +24,7 @@ const Create = () => {
             setIsLoading(false)
             setTitle('')
             setBody('')
-            navigate("/")
+            navigate("/blog-template")
         })
     }
 
